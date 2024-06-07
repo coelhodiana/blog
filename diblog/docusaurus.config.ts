@@ -11,14 +11,14 @@ const config: Config = {
   url: 'https://dianacoelho.com.br/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'coelhodiana', // Usually your GitHub org/user name.
   trailingSlash: false,
-  projectName: 'diblog', // Usually your repo name.
-
+  projectName: 'blog', // Usually your repo name.
+  deploymentBranch: "gh-pages",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
